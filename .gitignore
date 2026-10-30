@@ -1,0 +1,19 @@
+# Only what is needed to build and test the engine goes into git.
+
+# installed packages and build output: recreated by npm install / npm run package
+node_modules/
+dist/
+.svelte-kit/
+
+# packed files, if npm pack is ever run by hand
+*.tgz
+
+# editor settings: personal, not part of the project
+.vscode/
+
+# logs, test leftovers, OS clutter
+*.log
+coverage/
+.env*
+.DS_Store
+Thumbs.db
